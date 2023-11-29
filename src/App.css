@@ -1,10 +1,14 @@
 .dashboard{
+  margin: 0 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.page{
+.layout{
   width: 90%;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
