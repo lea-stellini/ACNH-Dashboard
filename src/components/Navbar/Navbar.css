@@ -1,0 +1,23 @@
+.navbar{
+    width:10%;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon{
+    width: 20%;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.art{
+    background-color: var(--primary);
+}

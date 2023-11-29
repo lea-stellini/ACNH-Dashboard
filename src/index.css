@@ -6,12 +6,13 @@ body{
 }
 
 h1, h2{
-  font-family: 'Spectral', serif;;
+  font-family: 'Spectral', serif;
 }
 
 h1{
   font-size: 32px;
   font-weight: 700;
+  color: var(--text);
 }
 
 h2{

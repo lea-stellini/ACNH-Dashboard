@@ -1,0 +1,10 @@
+.dashboard{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page{
+  width: 90%;
+  height: 100vh;
+}
