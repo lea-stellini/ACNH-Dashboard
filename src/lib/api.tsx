@@ -4,7 +4,7 @@ export async function getArts() {
     try{
         const response = await axios.get('https://api.nookipedia.com/nh/art', {
             headers: {
-                'X-API-KEY': 'clé api',
+                'X-API-KEY': import.meta.env.VITE_API_KEY,
                 'Content-Type': 'application/json',
             },
         });
