@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
-import { FaPaintBrush } from 'react-icons/fa';
+import { FaPaintBrush, FaHome } from 'react-icons/fa';
 import './Navbar.css';
 
 function Navbar() {
 
     return(
         <div className='navbar'>
-            <div className='icons'></div>
+            <Link to='/' className='icons home'>
+                <FaHome />
+            </Link>
             <Link to='/art' className='icons art'>
                 <FaPaintBrush />
             </Link>

@@ -1,0 +1,23 @@
+.museum{
+    height: 75vh;
+    width: 35%;
+    background-color: var(--brown);
+    border-radius: 15px;
+    padding: 16px;
+}
+
+.museum h2{
+    color: white;
+}
+
+.museum .museumList{
+    margin: auto;
+    padding: 20px;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    border-radius: 0;
+    background-color: none;
+    overflow: hidden scroll;
+}

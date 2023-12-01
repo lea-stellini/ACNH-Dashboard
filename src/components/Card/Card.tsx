@@ -4,15 +4,21 @@ import './Card.css';
 type Props = {
     img: string;
     title: string;
-    hasFake: boolean;
+    hasFake?: boolean;
+    btn?: boolean;
 }
 
-function Card({img, title, hasFake} : Props){
+function Card({img, title, hasFake, btn} : Props){
     return(
         <div className='card'>
             <img src={img} alt="" className='card__img'/>
-            <p className='card__title'>{title} | {hasFake ? " ⚠️" : " ✅"}</p>
-            <Button style="addArt" title="Ajouter au musée"/>
+            <p className='card__title'>{title} {hasFake ? "| ⚠️" : "| ✅" }</p>
+            {
+                btn ? 
+                <Button style="addArt" title="Ajouter au musée"/>
+                :
+                null
+            }
         </div>
     )
 }

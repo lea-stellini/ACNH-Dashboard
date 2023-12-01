@@ -29,7 +29,7 @@ function Arts(){
       }, []);
 
     return(
-        <div className='arts'>
+        <div className='container arts'>
             <h2>Liste des oeuvres d'art</h2>
             {/* <div>Filter</div> */}
             <div className='cardList'>
@@ -41,6 +41,7 @@ function Arts(){
                             title={art.name} 
                             img={art.real_info.image_url} 
                             hasFake={art.has_fake}
+                            btn
                         />
                        )
                     })
