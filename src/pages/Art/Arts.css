@@ -12,14 +12,14 @@
 
 h1{
     text-align: center;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .cardList{
     margin: auto;
     padding: 30px;
     width: 90%;
-    height: 70vh;
+    height: 70%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 30px;

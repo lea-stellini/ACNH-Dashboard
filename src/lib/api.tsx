@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios'; 
 
 export async function getArts() {
     try{
@@ -10,8 +10,13 @@ export async function getArts() {
         });
 
         const result = response.data;
-        console.log(result)
+        return result
     } catch(error) {
         console.error('Erreur lors de la requête:', error);
+        return error
     }
+}
+
+export function postInMuseum() {
+    
 }

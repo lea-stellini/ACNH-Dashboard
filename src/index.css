@@ -1,6 +1,7 @@
 @import './utils/_variables.css';
 
 body{
+  height: 668px;
   margin: 0;
   background-color: var(--background);
 }
