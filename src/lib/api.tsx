@@ -17,6 +17,24 @@ export async function getArts() {
     }
 }
 
-export function postInMuseum() {
-    
-}
+// export async function postInMuseum(data) {
+//     const art = {
+//         name: data.name,
+//         inMuseum: data.inMuseum,
+//         hasFalse: data.has_fake,
+//     };
+
+//     const bodyFormData = new FormData();
+//     bodyFormData.append('art', JSON.stringify(art));
+
+//     try { 
+//         return await axios({
+//             method:'post',
+//             url: 'http://localhost:4000/api/arts',
+//             data: bodyFormData,
+//         });
+//     } catch (err) {
+//         console.log(err);
+//         return { error: true, message: err.message };
+//     }
+// }

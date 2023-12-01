@@ -1,3 +1,4 @@
+import Button from '../Button/Button';
 import './Header.css';
 
 function Header(){
@@ -5,11 +6,10 @@ function Header(){
     return(
         <div className='header'>
             <h1>Emeraude's Dashboard</h1>
-            <div className='btn'>
-                <button className='logIn'>Connexion</button>
-                <button className='signIn'>Inscription</button>
-
-                {/* <button className='logOut'>Déconnexion</button> */}
+            <div className='buttons'>
+                <Button style="logIn" title="Connexion"/>
+                <Button style="singIn" title="Inscription"/>
+                {/* <Button style="logOut" title="Desinscription"/> */}
             </div>
             
         </div>

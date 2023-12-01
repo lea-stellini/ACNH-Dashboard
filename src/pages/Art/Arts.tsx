@@ -6,6 +6,7 @@ import { getArts } from '../../lib/api';
 type Data = {
     name: string,
     url: string,
+    has_fake: boolean,
     real_info: {
         image_url: string,
     }
@@ -29,13 +30,18 @@ function Arts(){
 
     return(
         <div className='arts'>
-            <h2>Oeuvres d'art</h2>
+            <h2>Liste des oeuvres d'art</h2>
             {/* <div>Filter</div> */}
             <div className='cardList'>
                 {
                     arts.map( art => {
                        return (
-                       <Card key={art.name} title={art.name} img={art.real_info.image_url} />
+                       <Card 
+                            key={art.name} 
+                            title={art.name} 
+                            img={art.real_info.image_url} 
+                            hasFake={art.has_fake}
+                        />
                        )
                     })
                 }
