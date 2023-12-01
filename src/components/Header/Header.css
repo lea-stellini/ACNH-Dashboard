@@ -1,0 +1,38 @@
+.header{
+    width: 90%;
+    padding: 16px 32px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 20px var(--primary);
+}
+
+.btn{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signIn, .logIn, .logOut{
+    font-size: 16px;
+    padding: 12px 28px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.signIn:active, .logIn:active{
+    transform: scale(.9);
+}
+
+.logIn{
+    background-color: var(--primary);
+    color: white;
+}
+
+.signIn, .logOut{
+    color: var(--body);
+}
+

@@ -9,7 +9,7 @@ function Card({img, title} : Props){
     return(
         <div className='card'>
             <img src={img} alt="" className='card__img'/>
-            <h2 className='card__title'>{title}</h2>
+            <p className='card__title'>{title}</p>
             <div className='card__check'>
                 <label className='card__label'> Au musée : </label>
                 <input type='checkbox' className='card__input'/>

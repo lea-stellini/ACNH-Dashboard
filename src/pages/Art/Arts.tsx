@@ -20,7 +20,6 @@ function Arts(){
             try{
                 const data: Data[] = await getArts();
                 setArts(data)
-                console.log(data)
             } catch(error) {
                 console.error('Erreur lors de la récupération des données :', error);
             }    
@@ -30,7 +29,7 @@ function Arts(){
 
     return(
         <div className='arts'>
-            <h1>Oeuvres d'art</h1>
+            <h2>Oeuvres d'art</h2>
             {/* <div>Filter</div> */}
             <div className='cardList'>
                 {
