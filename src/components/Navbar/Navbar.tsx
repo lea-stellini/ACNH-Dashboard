@@ -6,8 +6,8 @@ function Navbar() {
 
     return(
         <div className='navbar'>
-            <div className='icon'></div>
-            <Link to='/art' className='icon art'>
+            <div className='icons'></div>
+            <Link to='/art' className='icons art'>
                 <FaPaintBrush />
             </Link>
 

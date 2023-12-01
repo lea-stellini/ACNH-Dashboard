@@ -1,7 +1,6 @@
 .navbar{
-    width: 7%;
     height: 90vh;
-    padding: 20px 0;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -12,9 +11,10 @@
     background-color: white;
 }
 
-.icon{
-    width: 20%;
-    padding: 20px;
+.icons{
+    width: 32px;
+    height: 32px;
+    padding: 16px;
     font-size: 20px;
     color: white;
     border-radius: 5px;
@@ -27,4 +27,6 @@
 
 .art{
     background-color: var(--brown);
+    width: 20px;
+    height: 20px;
 }
