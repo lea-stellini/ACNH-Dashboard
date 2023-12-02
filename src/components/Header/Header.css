@@ -1,12 +1,18 @@
 .header{
     width: 90%;
     padding: 16px 32px;
-    background: white;
+    background: var(--background);
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 0 20px var(--primary);
+}
+
+.header h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
 }
 
 .buttons{
