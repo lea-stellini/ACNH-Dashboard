@@ -9,11 +9,6 @@ function Home(){
                 <h2>Mon musée</h2>
                 <div className='museumList'>
                     <Card title="Title" img={img}/>
-                    <Card title="Title" img={img}/>
-                    <Card title="Title" img={img}/>
-                    <Card title="Title" img={img}/>
-                    <Card title="Title" img={img}/>
-                    <Card title="Title" img={img}/>
                 </div>
             </div>
         </div>

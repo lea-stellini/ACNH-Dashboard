@@ -30,6 +30,7 @@ p, span{
 
 p{
   font-weight: 400;
+  margin: 10px 0;
 }
 
 span, label{

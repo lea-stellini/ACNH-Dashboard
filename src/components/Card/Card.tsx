@@ -10,9 +10,9 @@ type Props = {
 
 function Card({img, title, hasFake, btn} : Props){
     return(
-        <div className='card'>
+        <div className={`card ${btn ? "" : "small"}`}>
             <img src={img} alt="" className='card__img'/>
-            <p className='card__title'>{title} {hasFake ? "| ⚠️" : "| ✅" }</p>
+            <p className="card__title">{title} {btn ? (hasFake ? "| ⚠️" : "| ✅" ) : null}</p>
             {
                 btn ? 
                 <Button style="addArt" title="Ajouter au musée"/>

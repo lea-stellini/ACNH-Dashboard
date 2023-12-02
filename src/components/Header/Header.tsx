@@ -5,7 +5,7 @@ function Header(){
 
     return(
         <div className='header'>
-            <h1>Emeraude's Dashboard</h1>
+            <h1>Emeraude Dashboard</h1>
             <div className='buttons'>
                 <Button style="logIn" title="Connexion"/>
                 <Button style="singIn" title="Inscription"/>
