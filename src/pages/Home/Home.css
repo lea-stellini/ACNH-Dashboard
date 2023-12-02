@@ -1,9 +1,10 @@
 .museum{
-    height: 75vh;
+    height: 90%;
     width: 35%;
     background-color: var(--brown);
     border-radius: 15px;
     padding: 16px;
+    margin: 15px;
 }
 
 .museum h2{
