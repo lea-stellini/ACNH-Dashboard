@@ -34,9 +34,14 @@ export async function postInMuseum(data : Data) {
             url: 'http://localhost:4000/api/arts',
             data: art,
         });
-    } catch (err) {
-        console.log(err);
-        return { error: true, message: err.message };
+    } catch (error) {
+        if (axios.isAxiosError(error)) {
+            console.log('error message: ', error.message);
+            return error.message;
+          } else {
+            console.log('unexpected error: ', error);
+            return 'An unexpected error occurred';
+          }
     }
 }
 
