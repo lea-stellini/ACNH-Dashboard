@@ -1,8 +1,11 @@
 :root{
     --primary : #8DDAC1;
     --secondary : #FDB8C5;
-    --background : #f0efef;
+    --background : #f4f3ff;
+    --component-bg : #fff;
+    --shadow: #D3D3D3;
     --body : #384E53;
+    --text : #8f9a9b;
     --yellow : #FFDF5D;
-    --brown : #E69D6E;
+    --brown : #dcaf93;
 }
